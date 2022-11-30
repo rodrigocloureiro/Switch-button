@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ad48;
+  color: #21222c;
+  transition: 1s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#section-theme {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+
+#section-theme p {
+  font-size: 14px;
+  font-weight: 800;
+  transition: 1s;
+}
+
+#content-section {
+  padding: 5px;
+  transition: 1s;
+}
+
+#content-section h1 {
+  text-align: center;
+}
+
+/* Utilitários */
+.light-color {
+  color: #ad48 !important;
+}
+
+.dark-color {
+  color: #21222c;
+}
+
+.bg-dark {
+  background-color: #21222c;
+}
+/* Utilitários */
+
+/* Switch button */
+.switch {
+  background-color: #d4d4d4;
+  width: 2.5em;
+  height: 1.25em;
+  border-radius: 50em;
+  transition: 1s;
+  padding: 2px 2px;
+}
+
+.switch-light {
+  background-color: #ad48;
+}
+
+.switch-dark {
+  background-color: #21222c;
+}
+
+.interrupter {
+  width: 1.25em;
+  height: 1.25em;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.slide {
+  transition: 1s;
+  margin-left: 1.25em;
+}
+/* Switch button */
